@@ -1,0 +1,30 @@
+.container1 {
+  background-color: #ABEA4D;
+  height: 300px;
+}
+
+#heading1 {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+}
+
+#animalInformation {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#hiddenLion, #hiddenKangaroo, #hiddenCheetah {
+  display: none;
+}
+
+.container2 {
+  background-color: #9AD5B2;
+  height: 200px;
+}
+
+#footerText {
+  text-align: center;
+  color: white;
+  padding-top: 110px;
+}
