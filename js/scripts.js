@@ -1,18 +1,18 @@
 $(document).ready(function() {
   $("#lion").click(function() {
-    $("#hiddenLion").show();
+    $("#hiddenLion").toggle();
     $("#hiddenKangaroo").hide();
     $("#hiddenCheetah").hide();
   });
 
   $("#kangaroo").click(function() {
-    $("#hiddenKangaroo").show();
+    $("#hiddenKangaroo").toggle();
     $("#hiddenLion").hide();
     $("#hiddenCheetah").hide();
   });
 
   $("#cheetah").click(function() {
-    $("#hiddenCheetah").show();
+    $("#hiddenCheetah").toggle();
     $("#hiddenLion").hide();
     $("#hiddenKangaroo").hide();
   });
